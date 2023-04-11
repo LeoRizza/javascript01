@@ -6,7 +6,7 @@ let sumatoriaPrecios = 0;
 
 while (true) {
 
-    const valor = prompt('Por favor, ingresa precio del juego en $:');
+    const valor = prompt("Por favor, ingresa precio del juego en $:");
 
 
     if (valor === null) {
@@ -20,9 +20,9 @@ while (true) {
     sumatoriaPrecios += precioConRecargo;
 
 
-    alert(`El precio con impuestos es de $` + precioConRecargo);
+    alert("El precio con impuestos es de $" + precioConRecargo);
 }
 
 
-alert(`La sumatoria todos los juegos ingresados es de $` + sumatoriaPrecios);
+alert("La sumatoria de todos los juegos ingresados es de $" + sumatoriaPrecios);
 
