@@ -6,7 +6,7 @@ let sumatoriaPrecios = 0;
 
 while (true) {
 
-    const valor = prompt('Por favor, precio del juego en $:');
+    const valor = prompt('Por favor, ingresa precio del juego en $:');
 
 
     if (valor === null) {
