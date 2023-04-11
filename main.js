@@ -17,7 +17,7 @@ while (true) {
     const precio = parseInt(valor);
     const precioConRecargo = calcularPrecioConRecargo(precio);
 
-    sumatoriaPrecios += precioConRecargo;
+    sumatoriaPrecios= sumatoriaPrecios + precioConRecargo;
 
 
     alert("El precio con impuestos es de $" + precioConRecargo);
