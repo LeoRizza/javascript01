@@ -14,7 +14,7 @@ while (true) {
     }
 
 
-    const precio = parseInt(valor);
+    const precio = parseFloat(valor);
     const precioConRecargo = calcularPrecioConRecargo(precio);
 
     sumatoriaPrecios= sumatoriaPrecios + precioConRecargo;
